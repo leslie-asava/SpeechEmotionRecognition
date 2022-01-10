@@ -274,6 +274,7 @@ class HomeScreen(QWidget):
 
 	def createUI(self):
 		self.setGeometry(X,Y,WIDTH,HEIGHT)
+		self.setWindowFlags(Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint)
 		self.template = WindowTemplate(self)
 
 		self.logo_label = QLabel(self)
@@ -342,6 +343,7 @@ class AudioFileScreen(QWidget):
 
 	def createUI(self):
 		self.setGeometry(X,Y,WIDTH,HEIGHT)
+		self.setWindowFlags(Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint)
 		self.template = WindowTemplate(self)
 
 		self.title_label = QLabel(self)
@@ -438,6 +440,7 @@ class AudioFolderScreen(QWidget):
 
 	def createUI(self):
 		self.setGeometry(X,Y,WIDTH,HEIGHT)
+		self.setWindowFlags(Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint)
 		self.template = WindowTemplate(self)
 
 		self.title_label = QLabel(self)
@@ -516,6 +519,7 @@ class EmotionRecognitionScreen(QWidget):
 
 	def createUI(self):
 		self.setGeometry(X,Y,WIDTH,HEIGHT)
+		self.setWindowFlags(Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint)
 		self.template = WindowTemplate(self)
 
 		self.title_label = QLabel(self)
@@ -607,6 +611,7 @@ class DataAnalysisScreen(QWidget):
 
 	def createUI(self):
 		self.setGeometry(X,Y,WIDTH,HEIGHT)
+		self.setWindowFlags(Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint)
 		self.template = WindowTemplate(self)
 
 		self.title_label = QLabel(self)
